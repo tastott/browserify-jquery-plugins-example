@@ -1,0 +1,22 @@
+{
+  "name": "browserify-jquery-plugins-example",
+  "version": "0.0.0",
+  "author": "author",
+  "main": "app.js",
+  "scripts": {
+    "start": "node_modules\\.bin\\http-server -o",
+    "test": "node_modules\\.bin\\mocha --recursive",
+    "browserify": "node_modules\\.bin\\browserify app.js -o app-browser.js"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "bootstrap-select": "^1.7.3",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "chai": "^3.2.0",
+    "http-server": "^0.8.0",
+    "mocha": "^2.2.5"
+  }
+}
